@@ -1,4 +1,4 @@
-
+import { Tablero } from "./components"
 
 function App() {
 
@@ -6,6 +6,7 @@ function App() {
     <div className="bg-light h-screen">
       <div className="h-10">test</div>
       <div className="flex justify-center">
+        <Tablero />
       </div>
     </div>
   )
